@@ -2991,8 +2991,11 @@ input, select, textarea {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		min-height: 22.5em;
+		min-height: 22.5em;		
+	
 	}
+
+
 
 		body.is-ie .spotlights > section {
 			min-height: 0;
@@ -3244,10 +3247,22 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #7cd4ab;
+
+		background-attachment: fixed;
+		background-image: url("images/intro.svg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 		}
 
 		.wrapper.style2-alt {
 			background-color: #7cd4ab;
+			
+		background-attachment: fixed;
+		background-image: url("images/intro.svg");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 		}
 
 		.wrapper.style3 {
